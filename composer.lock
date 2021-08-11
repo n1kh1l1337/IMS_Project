@@ -64,7 +64,7 @@
         },
         {
             "name": "barryvdh/laravel-dompdf",
-            "version": "v1.0.0-beta1",
+            "version": "v0.8.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-dompdf.git",
@@ -84,7 +84,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "v1.0.2"
+                    "dev-master": "v0.8-dev"
                 },
                 "laravel": {
                     "providers": [
