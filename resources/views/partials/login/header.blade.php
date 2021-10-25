@@ -31,7 +31,7 @@
             <li class="nav-item dropdown">
                 <a href="#" class="navbar-nav-link">
                     <i class="icon-cog3"></i>
-                    <span class="d-md-none ml-2">Options</span>
+                    <span class="d-md-none ml-2">My Options</span>
                 </a>
             </li>
         </ul>
