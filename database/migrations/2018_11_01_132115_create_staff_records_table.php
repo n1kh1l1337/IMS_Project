@@ -20,6 +20,14 @@ class CreateStaffRecordsTable extends Migration
             $table->string('emp_date')->nullable();
             $table->timestamps();
         });
+        
+        Schema::create('student_records', function (Blueprint $table) {
+            $table->increments('id');
+            $table->unsignedInteger('user_id');
+            $table->string('code', 100)->nullable()->unique();
+            $table->string('emp_date')->nullable();
+            $table->timestamps();
+        });
     }
 
     /**
@@ -30,5 +38,7 @@ class CreateStaffRecordsTable extends Migration
     public function down()
     {
         Schema::dropIfExists('staff_records');
+        Schema::dropIfExists('student_records');
+        
     }
 }
