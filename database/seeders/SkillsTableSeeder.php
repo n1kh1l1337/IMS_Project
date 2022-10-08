@@ -28,7 +28,7 @@ class SkillsTableSeeder extends Seeder
             [ 'name' => 'PUNCTUALITY', 'skill_type' => $types[0] ],
             [ 'name' => 'NEATNESS', 'skill_type' => $types[0] ],
             [ 'name' => 'HONESTY', 'skill_type' => $types[0] ],
-            [ 'name' => 'RELIABILITY', 'skill_type' => $types[0] ],
+            [ 'name' => 'RELIABILE', 'skill_type' => $types[0] ],
             [ 'name' => 'RELATIONSHIP WITH OTHERS', 'skill_type' => $types[0] ],
             [ 'name' => 'POLITENESS', 'skill_type' => $types[0] ],
             [ 'name' => 'ALERTNESS', 'skill_type' => $types[0] ],
